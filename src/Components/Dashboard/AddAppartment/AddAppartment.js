@@ -15,7 +15,7 @@ const AddAppartment = () => {
 
 
        const newAppartment = {img: img, title:title, price: price,  location: location}
-        fetch("http://localhost:5000/appartments", {
+        fetch("http://glacial-cove-39910.herokuapp.com/appartments", {
             method:'POST',
             headers: {
                 'content-type': 'application/json'

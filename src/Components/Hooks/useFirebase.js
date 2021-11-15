@@ -88,7 +88,7 @@ const useFirebase = () => {
 
   const saveUser = (email, displayName)=>{
       const user = {email, displayName};
-      fetch('http://localhost:5000/users', {
+      fetch('http://glacial-cove-39910.herokuapp.com/users', {
         method: 'POST',
         headers: {
           'content-type': 'application/json'
@@ -98,7 +98,7 @@ const useFirebase = () => {
   }
   const saveUserGoogle = (email, displayName)=>{
       const user = {email, displayName};
-      fetch('http://localhost:5000/users', {
+      fetch('http://glacial-cove-39910.herokuapp.com/users', {
         method: 'PUT',
         headers: {
           'content-type': 'application/json'
@@ -108,7 +108,7 @@ const useFirebase = () => {
   }
 
   useEffect(()=>{
-    fetch(`http://localhost:5000/users/${user.email}`)
+    fetch(`http://glacial-cove-39910.herokuapp.com/users/${user.email}`)
     .then(res=>res.json())
     .then(data => setAdmin(data.admin))
   })

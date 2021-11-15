@@ -28,7 +28,7 @@ const PlaceOrder = () => {
 
         const newBooking = {name:user.displayName, email:user.email , address: address, mobile: mobile, title: title, status: status }
 
-        fetch("http://localhost:5000/bookings", {
+        fetch("http://glacial-cove-39910.herokuapp.com/bookings", {
             method:'POST',
             headers: {
                 'content-type': 'application/json'
@@ -47,7 +47,7 @@ const PlaceOrder = () => {
     }
 
     useEffect( ()=>{
-        fetch(`http://localhost:5000/appartments/${id}`)
+        fetch(`http://glacial-cove-39910.herokuapp.com/appartments/${id}`)
         .then(res=> res.json())
         .then(data => setPlaceOrder(data))
     },[])

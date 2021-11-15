@@ -6,7 +6,7 @@ const useAppartments = () => {
 
     useEffect(()=>{
 
-        const url = 'http://localhost:5000/appartments';
+        const url = 'http://glacial-cove-39910.herokuapp.com/appartments';
         fetch(url)
         .then(res=> res.json())
         .then(data=> {

@@ -13,7 +13,7 @@ const Reviews = () => {
         console.log(displayName)
         
        const newReview = {reviews: reviews, displayName: displayName, rating: rating}
-        fetch("http://localhost:5000/reviews", {
+        fetch("http://glacial-cove-39910.herokuapp.com/reviews", {
             method:'POST',
             headers: {
                 'content-type': 'application/json'

@@ -10,7 +10,7 @@ const MyBookings = () => {
     
 
     useEffect(()=>{
-        const url = 'http://localhost:5000/bookings';
+        const url = 'http://glacial-cove-39910.herokuapp.com/bookings';
         fetch(url)
         .then(res=> res.json())
         .then(data=> {
@@ -25,7 +25,7 @@ const MyBookings = () => {
     const handleDelete = id =>{
         const procesed = window.confirm('Are you sure want to delete?')
         if(procesed){
-            const url = `http://localhost:5000/bookings/${id}`;
+            const url = `http://glacial-cove-39910.herokuapp.com/bookings/${id}`;
     fetch(url,{
         method :'DELETE'
     })
