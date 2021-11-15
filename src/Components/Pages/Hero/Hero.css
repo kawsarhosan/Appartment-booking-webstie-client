@@ -1,0 +1,7 @@
+.imgDiv{
+    height: 400px;
+            /* background-color: rgba(0, 0, 0, 0.6); */
+    background-image: url('/Images/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
