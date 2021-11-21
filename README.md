@@ -1,27 +1,21 @@
-This website is about a medical service organisation. There are multiple service here.
+#AppartmentHunt - A online appartment booking platform.
 
-Use react component, react route, firebase for this job. The component is:
+This is a online appartment booking website. A user can booking a appartment, add manage it from dashboard. Doing this job, he/she must be login with user, password or google login. The booking page, user provide their personal information such as address and phone for booking confirm. User can review about our service.
+An admin also manage this website from dashboard. Admin can add a appartment, manage all booking and appartments, make a admin and so on. Admin also can delete a booking, approve or cancle it. After all, this is full complete website.
 
-1.About
-2.Contact
-3.Context
-4.Doctor
-5.DoctorDetails
-6.Doctors
-7.Firebase
-8.Footer
-9.HandMobile
-10.Header
-11.Hero
-12.Home
-13.Hooks
-14.Login
-15.NotFound
-16.PrivateRoute
-17.Register
-18Slider
-Using a fontawsome icon for button. Add Header and footer for this website.
+This website is created by-
 
-Data loaded from internal json file which is stored public folder of this content.
+1. HTML
+2. CSS 
+3. JavaScript 
+4. Bootstrap 
+5. Metarial UI 
+6. React 
+7. React Router 
+8. Firebase 
+9. MongoDB 
+10. Express JS, 
+11. NodeJS
 
-Live site link: https://doctime-react.netlify.app/
+
+It is totally responsive for mobile device.
